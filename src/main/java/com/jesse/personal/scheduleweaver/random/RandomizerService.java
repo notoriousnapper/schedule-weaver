@@ -5,6 +5,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+// TODO: Add randomizer check for rules or sth here
+// TODO: Get appropriate randomizer, then fix this
+// HARDCODED ATM
 @Component
 public class RandomizerService {
 
@@ -12,9 +15,6 @@ public class RandomizerService {
     List<Randomizer> randomizers; // Use appropriate one by rule
 
     public String getRandomItem(List itemList) {
-//        randomizers // TODO: Add randomizer check for rules or sth here
-        // TODO: Get appropriate randomizer, then fix this
-        // HARDCODED ATM
         return randomizers.get(0).extractRandomItem(itemList);
     }
 }

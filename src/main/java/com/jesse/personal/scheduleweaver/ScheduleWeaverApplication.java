@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ScheduleweaverApplication {
+public class ScheduleWeaverApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ScheduleweaverApplication.class, args);
+		SpringApplication.run(ScheduleWeaverApplication.class, args);
 	}
 
 }
